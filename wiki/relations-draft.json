@@ -1,0 +1,26 @@
+{
+  "status": "draft",
+  "note": "以下是概念學習導覽的提議關聯，不是市場因果宣稱；尚待人工核准。",
+  "relations": [
+    {
+      "from": "02-reading-candles",
+      "to": "03-ema-rsi-macd",
+      "relation": "K 線圖提供指標的價格背景；可參考 Coinbase 圖表與指標章節。"
+    },
+    {
+      "from": "03-ema-rsi-macd",
+      "to": "05-risk-management",
+      "relation": "技術指標不能單獨保證結果，交易需要另行管理風險。"
+    },
+    {
+      "from": "04-perpetual-futures",
+      "to": "05-risk-management",
+      "relation": "槓桿會放大虧損，因此要先釐清保證金與風險額度。"
+    },
+    {
+      "from": "05-risk-management",
+      "to": "06-exchange-and-systemic-risk",
+      "relation": "風險管理不只有停損，也涵蓋平台、流動性與系統性風險。"
+    }
+  ]
+}

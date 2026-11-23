@@ -1,0 +1,55 @@
+{
+  "sources": [
+    {
+      "file": "01-bitcoin-how-it-works.md",
+      "title": "How does Bitcoin work?",
+      "url": "https://bitcoin.org/en/how-it-works",
+      "publisher": "Bitcoin.org",
+      "published_at": "",
+      "public_ok": true,
+      "source_type": "user_selected_web_article_curated_paraphrase",
+      "note": "手動指定的公開文章；raw 中存的是繁體中文人工編輯摘要，不是原文全文。"
+    },
+    {
+      "file": "02-tradingview-candles.md",
+      "title": "Introduction to candlestick charts and patterns",
+      "url": "https://www.tradingview.com/support/solutions/43000745269-introduction-to-candlestick-charts-and-patterns/",
+      "publisher": "TradingView",
+      "published_at": "",
+      "public_ok": true,
+      "source_type": "user_selected_web_article_curated_paraphrase",
+      "note": "手動指定的公開文章；raw 中存的是繁體中文人工編輯摘要，不是原文全文。"
+    },
+    {
+      "file": "03-coinbase-advanced-charts.md",
+      "title": "How to read advanced charts",
+      "url": "https://www.coinbase.com/learn/advanced-trading/reading-financial-charts",
+      "publisher": "Coinbase",
+      "published_at": "",
+      "public_ok": true,
+      "source_type": "user_selected_web_article_curated_paraphrase",
+      "note": "手動指定的公開文章；raw 中存的是繁體中文人工編輯摘要，不是原文全文。"
+    },
+    {
+      "file": "04-binance-futures.md",
+      "title": "What Are Forward and Futures Contracts?",
+      "url": "https://academy.binance.com/en/articles/what-are-forward-and-futures-contracts",
+      "publisher": "Binance Academy",
+      "published_at": "2026-04-28",
+      "public_ok": true,
+      "source_type": "user_selected_web_article_curated_paraphrase",
+      "note": "手動指定的公開文章；raw 中存的是繁體中文人工編輯摘要，不是原文全文。"
+    },
+    {
+      "file": "05-binance-risk-management.md",
+      "title": "A Beginner's Guide to Risk Management",
+      "url": "https://academy.binance.com/en/articles/a-beginners-guide-to-understanding-risk-management",
+      "publisher": "Binance Academy",
+      "published_at": "2026-07-21",
+      "public_ok": true,
+      "source_type": "user_selected_web_article_curated_paraphrase",
+      "note": "手動指定的公開文章；raw 中存的是繁體中文人工編輯摘要，不是原文全文。"
+    }
+  ],
+  "instructions": "本次使用者明確指定 5 篇網頁，保留其 URL 與經查核的精簡中文摘記。未保存原文全文，詳細證據需比對原始章節。"
+}

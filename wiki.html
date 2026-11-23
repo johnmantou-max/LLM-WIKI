@@ -1,0 +1,138 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BTC Trading Wiki｜wiki</title><meta name="description" content="可追溯來源的個人 BTC 交易知識庫"><link rel="stylesheet" href="assets/site.css"></head><body><div class="layout"><aside class="sidebar"><a href="index.html" class="brand"><span class="coin">₿</span><span>BTC <span style="color:#80ecd0">ATLAS</span><small style="display:block;font-size:11px;color:#829ab7;font-weight:500">PERSONAL LLM WIKI</small></span></a><span class="tag">NAVIGATION</span><nav class="nav"><a href="index.html" class=""><span>⌂</span>首頁</a><a href="wiki.html" class="current"><span>▤</span>知識庫</a><a href="graph.html" class=""><span>◎</span>知識關聯圖</a><a href="deck.html" class=""><span>▣</span>HTML 簡報</a><a href="workflow.html" class=""><span>⇄</span>Graph / Loop</a></nav><div class="side-bottom">PROJECT v1.0<br><b>已匯入 5 篇來源摘記，6 篇草稿待審</b><br>手動匯入 · 精確引用 · Graph + Loop</div></aside><main><span class="eyebrow">PERSONAL KNOWLEDGE BASE</span><h1 class="page-title">BTC 交易知識庫</h1><p class="sub">目前提供六篇待審稿的公開預覽；所有條目依使用者指定的五篇原文整理，引用標示的是本站摘要行號。正式核准需核對來源全文與所屬章節。</p><div class="toolbar"><input id="search" class="search" type="search" placeholder="搜尋文章、名詞、分類…" aria-label="搜尋 Wiki"><button data-filter="all" class="filter active">全部</button><button class="filter" data-filter="BTC 與區塊鏈基礎">BTC 與區塊鏈基礎</button><button class="filter" data-filter="技術分析">技術分析</button><button class="filter" data-filter="價格行為與 SMC">價格行為與 SMC</button><button class="filter" data-filter="永續合約與槓桿">永續合約與槓桿</button><button class="filter" data-filter="總體經濟">總體經濟</button><button class="filter" data-filter="交易心理與風險管理">交易心理與風險管理</button></div><div class="article-list"><article class="article-row" data-category="BTC 與區塊鏈基礎"><div class="meta">BTC 與區塊鏈基礎 · 1 個來源 ID · 草稿預覽</div><h3>比特幣如何運作：帳本、私鑰與挖礦</h3><p class="desc">從錢包地址、公開帳本、交易簽章到挖礦確認，理解 Bitcoin 運作的最基本結構。</p><a class="link" href="#article-01-bitcoin-blockchain">閱讀文章　↗</a></article><article class="article-row" data-category="技術分析"><div class="meta">技術分析 · 2 個來源 ID · 草稿預覽</div><h3>如何閱讀 K 線與型態</h3><p class="desc">看懂開高低收、實體與影線，以及型態屬於可能性訊號而非必然預測。</p><a class="link" href="#article-02-reading-candles">閱讀文章　↗</a></article><article class="article-row" data-category="技術分析"><div class="meta">技術分析 · 1 個來源 ID · 草稿預覽</div><h3>RSI、SMA、EMA 與 MACD 的解讀</h3><p class="desc">比較動能與趨勢型指標的功能、典型解讀及過度依賴單一訊號的風險。</p><a class="link" href="#article-03-ema-rsi-macd">閱讀文章　↗</a></article><article class="article-row" data-category="永續合約與槓桿"><div class="meta">永續合約與槓桿 · 1 個來源 ID · 草稿預覽</div><h3>永續合約、槓桿與資金費率</h3><p class="desc">辨識傳統期貨與永續合約的不同，理解保證金、槓桿與資金費率的作用。</p><a class="link" href="#article-04-perpetual-futures">閱讀文章　↗</a></article><article class="article-row" data-category="交易心理與風險管理"><div class="meta">交易心理與風險管理 · 1 個來源 ID · 草稿預覽</div><h3>交易風險管理：停損、部位與風險報酬比</h3><p class="desc">建立風險額度、停損及監督流程，理解 1% 規則與風險報酬比的意義。</p><a class="link" href="#article-05-risk-management">閱讀文章　↗</a></article><article class="article-row" data-category="交易心理與風險管理"><div class="meta">交易心理與風險管理 · 1 個來源 ID · 草稿預覽</div><h3>平台、流動性與系統性風險</h3><p class="desc">區分市場波動、流動性不足、平台與操作風險，避免誤以為分散持幣就是零風險。</p><a class="link" href="#article-06-exchange-and-systemic-risk">閱讀文章　↗</a></article></div><p class="hidden" id="filter-empty">沒有符合條件的文章。</p><section class="article" id="article-01-bitcoin-blockchain"><span class="eyebrow">BTC 與區塊鏈基礎 / DRAFT</span><h2>比特幣如何運作：帳本、私鑰與挖礦</h2>
+<blockquote><strong>待人工核准｜來源註記版。</strong> 本文只根據使用者指定的五篇網頁重點摘記撰寫；引用 <code>p1:Lx</code> 是本站中文筆記行號，對照原文請參看筆記所標的原文章節。</blockquote>
+<h3>核心概念</h3>
+<ul>
+<li>比特幣錢包可建立收款地址，使用地址並不代表必須先理解底層協議。 <a class="citation" href="data/extracted/SRC-5D8598E2C5.md" target="_blank" title="來源 SRC-5D8598E2C5 第 1 頁 L9–L9">[SRC-5D8598E2C5 p1:L9–L9]</a></li>
+<li>區塊鏈是公開、可供全網核對的交易帳本；已確認的交易可被網路用於計算可用餘額。 <a class="citation" href="data/extracted/SRC-5D8598E2C5.md" target="_blank" title="來源 SRC-5D8598E2C5 第 1 頁 L10–L10">[SRC-5D8598E2C5 p1:L10–L10]</a></li>
+<li>錢包藉由私鑰簽章交易，以證明該支用動作來自具備相應控制權的一方。 <a class="citation" href="data/extracted/SRC-5D8598E2C5.md" target="_blank" title="來源 SRC-5D8598E2C5 第 1 頁 L12–L12">[SRC-5D8598E2C5 p1:L12–L12]</a></li>
+</ul>
+<h3>交易如何確認</h3>
+<ul>
+<li>礦工將待確認交易納入符合規則的區塊，網路再透過驗證規則維持帳本狀態的一致性。 <a class="citation" href="data/extracted/SRC-5D8598E2C5.md" target="_blank" title="來源 SRC-5D8598E2C5 第 1 頁 L14–L14">[SRC-5D8598E2C5 p1:L14–L14]</a></li>
+<li>若想修改較早的已確認區塊，也會影響後續區塊的有效性，因此歷史竄改成本很高。 <a class="citation" href="data/extracted/SRC-5D8598E2C5.md" target="_blank" title="來源 SRC-5D8598E2C5 第 1 頁 L15–L15">[SRC-5D8598E2C5 p1:L15–L15]</a></li>
+</ul>
+<h3>學習注意</h3>
+<ul>
+<li>這篇來源只是入門概覽，不應以它推導未解釋的協議參數或投資策略。 <a class="citation" href="data/extracted/SRC-5D8598E2C5.md" target="_blank" title="來源 SRC-5D8598E2C5 第 1 頁 L16–L16">[SRC-5D8598E2C5 p1:L16–L16]</a></li>
+</ul>
+<h3>來源與邊界</h3>
+<ul>
+<li>如需核對完整原文，請在「已匯入來源登錄」開啟來源網址與章節。</li>
+<li>本文是教學筆記，不是操作訊號或收益承諾。</li>
+</ul><div class="sources"><b>來源文件（筆記定位＋原始網站）</b><div class="source-item">SRC-5D8598E2C5 · How does Bitcoin work? · <a href="data/extracted/SRC-5D8598E2C5.md" target="_blank">查看摘記</a> · <a href="https://bitcoin.org/en/how-it-works" target="_blank" rel="noopener">核對原文</a></div></div></section><section class="article" id="article-02-reading-candles"><span class="eyebrow">技術分析 / DRAFT</span><h2>如何閱讀 K 線與型態</h2>
+<blockquote><strong>待人工核准｜來源註記版。</strong> 本文只根據使用者指定的五篇網頁重點摘記撰寫；引用 <code>p1:Lx</code> 是本站中文筆記行號，對照原文請參看筆記所標的原文章節。</blockquote>
+<h3>K 線解剖</h3>
+<ul>
+<li>K 線實體表示開盤價與收盤價之間的區間，上下影線反映該時段最高價與最低價。 <a class="citation" href="data/extracted/SRC-88C323DB9A.md" target="_blank" title="來源 SRC-88C323DB9A 第 1 頁 L9–L9">[SRC-88C323DB9A p1:L9–L9]</a></li>
+<li>一般配色中，綠色常表示收盤價高於開盤價，紅色則相反；圖表配色可由使用者調整。 <a class="citation" href="data/extracted/SRC-88C323DB9A.md" target="_blank" title="來源 SRC-88C323DB9A 第 1 頁 L11–L11">[SRC-88C323DB9A p1:L11–L11]</a></li>
+<li>加密市場不休市，K 線的開盤與收盤是根據選定時間框架的起點與終點價格來定義。 <a class="citation" href="data/extracted/SRC-3137BBB83E.md" target="_blank" title="來源 SRC-3137BBB83E 第 1 頁 L9–L9">[SRC-3137BBB83E p1:L9–L9]</a></li>
+</ul>
+<h3>型態與解讀限制</h3>
+<ul>
+<li>K 線型態常分為反轉、延續或中性；它描述的是市場行為上的觀察，不保證下一根 K 線的方向。 <a class="citation" href="data/extracted/SRC-88C323DB9A.md" target="_blank" title="來源 SRC-88C323DB9A 第 1 頁 L15–L15">[SRC-88C323DB9A p1:L15–L15]</a></li>
+<li>TradingView 具備 K 線型態輔助辨識工具，但自動標記仍須結合市場背景分析。 <a class="citation" href="data/extracted/SRC-88C323DB9A.md" target="_blank" title="來源 SRC-88C323DB9A 第 1 頁 L16–L16">[SRC-88C323DB9A p1:L16–L16]</a></li>
+</ul>
+<h3>假設示例</h3>
+<ul>
+<li>假設選擇 15 分鐘 K 線，單根 K 線呈現的是該 15 分鐘內的開高低收，而非整天價格。 <a class="citation" href="data/extracted/SRC-3137BBB83E.md" target="_blank" title="來源 SRC-3137BBB83E 第 1 頁 L9–L9">[SRC-3137BBB83E p1:L9–L9]</a></li>
+</ul>
+<h3>來源與邊界</h3>
+<ul>
+<li>如需核對完整原文，請在「已匯入來源登錄」開啟來源網址與章節。</li>
+<li>本文是教學筆記，不是操作訊號或收益承諾。</li>
+</ul><div class="sources"><b>來源文件（筆記定位＋原始網站）</b><div class="source-item">SRC-3137BBB83E · How to read advanced charts · <a href="data/extracted/SRC-3137BBB83E.md" target="_blank">查看摘記</a> · <a href="https://www.coinbase.com/learn/advanced-trading/reading-financial-charts" target="_blank" rel="noopener">核對原文</a></div><div class="source-item">SRC-88C323DB9A · Introduction to candlestick charts and patterns · <a href="data/extracted/SRC-88C323DB9A.md" target="_blank">查看摘記</a> · <a href="https://www.tradingview.com/support/solutions/43000745269-introduction-to-candlestick-charts-and-patterns/" target="_blank" rel="noopener">核對原文</a></div></div></section><section class="article" id="article-03-ema-rsi-macd"><span class="eyebrow">技術分析 / DRAFT</span><h2>RSI、SMA、EMA 與 MACD 的解讀</h2>
+<blockquote><strong>待人工核准｜來源註記版。</strong> 本文只根據使用者指定的五篇網頁重點摘記撰寫；引用 <code>p1:Lx</code> 是本站中文筆記行號，對照原文請參看筆記所標的原文章節。</blockquote>
+<h3>RSI：相對強弱</h3>
+<ul>
+<li>RSI 以漲跌變化的相對強度呈現動能，通常介於 0 至 100。 <a class="citation" href="data/extracted/SRC-3137BBB83E.md" target="_blank" title="來源 SRC-3137BBB83E 第 1 頁 L11–L11">[SRC-3137BBB83E p1:L11–L11]</a></li>
+<li>70 與 30 是常見的超買／超賣提示門檻，但不能直接等同必須賣出或買入。 <a class="citation" href="data/extracted/SRC-3137BBB83E.md" target="_blank" title="來源 SRC-3137BBB83E 第 1 頁 L12–L12">[SRC-3137BBB83E p1:L12–L12]</a></li>
+</ul>
+<h3>均線：SMA 與 EMA</h3>
+<ul>
+<li>SMA 是觀察期間內價格的簡單平均；EMA 對近期價格賦予較大權重，所以更敏感。 <a class="citation" href="data/extracted/SRC-3137BBB83E.md" target="_blank" title="來源 SRC-3137BBB83E 第 1 頁 L14–L14">[SRC-3137BBB83E p1:L14–L14]</a></li>
+</ul>
+<h3>MACD：兩組均線的差距</h3>
+<ul>
+<li>來源列出的 MACD 標準設定，是 12 期 EMA 減 26 期 EMA，訊號線為 MACD 的 9 期 EMA；原文以日為例。 <a class="citation" href="data/extracted/SRC-3137BBB83E.md" target="_blank" title="來源 SRC-3137BBB83E 第 1 頁 L15–L15">[SRC-3137BBB83E p1:L15–L15]</a></li>
+<li>柱狀圖顯示 MACD 與訊號線的間距，可輔助觀察動能的變化。 <a class="citation" href="data/extracted/SRC-3137BBB83E.md" target="_blank" title="來源 SRC-3137BBB83E 第 1 頁 L16–L16">[SRC-3137BBB83E p1:L16–L16]</a></li>
+</ul>
+<h3>風險與限制</h3>
+<ul>
+<li>技術指標以歷史資料計算，過去走勢無法保證未來行情。 <a class="citation" href="data/extracted/SRC-3137BBB83E.md" target="_blank" title="來源 SRC-3137BBB83E 第 1 頁 L17–L17">[SRC-3137BBB83E p1:L17–L17]</a></li>
+</ul>
+<h3>來源與邊界</h3>
+<ul>
+<li>如需核對完整原文，請在「已匯入來源登錄」開啟來源網址與章節。</li>
+<li>本文是教學筆記，不是操作訊號或收益承諾。</li>
+</ul><div class="sources"><b>來源文件（筆記定位＋原始網站）</b><div class="source-item">SRC-3137BBB83E · How to read advanced charts · <a href="data/extracted/SRC-3137BBB83E.md" target="_blank">查看摘記</a> · <a href="https://www.coinbase.com/learn/advanced-trading/reading-financial-charts" target="_blank" rel="noopener">核對原文</a></div></div></section><section class="article" id="article-04-perpetual-futures"><span class="eyebrow">永續合約與槓桿 / DRAFT</span><h2>永續合約、槓桿與資金費率</h2>
+<blockquote><strong>待人工核准｜來源註記版。</strong> 本文只根據使用者指定的五篇網頁重點摘記撰寫；引用 <code>p1:Lx</code> 是本站中文筆記行號，對照原文請參看筆記所標的原文章節。</blockquote>
+<h3>合約分類</h3>
+<ul>
+<li>遠期合約通常是場外私人協議；交易所期貨則多採標準化條款與結算架構。 <a class="citation" href="data/extracted/SRC-0EF99E9060.md" target="_blank" title="來源 SRC-0EF99E9060 第 1 頁 L9–L9">[SRC-0EF99E9060 p1:L9–L9]</a></li>
+<li>永續合約不像一般到期日固定的期貨，沒有固定到期日。 <a class="citation" href="data/extracted/SRC-0EF99E9060.md" target="_blank" title="來源 SRC-0EF99E9060 第 1 頁 L13–L13">[SRC-0EF99E9060 p1:L13–L13]</a></li>
+</ul>
+<h3>槓桿與保證金</h3>
+<ul>
+<li>槓桿使交易者可用較少保證金控制更大名目部位，也會同步放大獲利與虧損。 <a class="citation" href="data/extracted/SRC-0EF99E9060.md" target="_blank" title="來源 SRC-0EF99E9060 第 1 頁 L11–L11">[SRC-0EF99E9060 p1:L11–L11]</a></li>
+<li>當維持保證金不足時，槓桿部位可能被強制平倉。 <a class="citation" href="data/extracted/SRC-0EF99E9060.md" target="_blank" title="來源 SRC-0EF99E9060 第 1 頁 L12–L12">[SRC-0EF99E9060 p1:L12–L12]</a></li>
+</ul>
+<h3>資金費率</h3>
+<ul>
+<li>永續合約的資金費率用來協助合約價格貼近現貨價格。 <a class="citation" href="data/extracted/SRC-0EF99E9060.md" target="_blank" title="來源 SRC-0EF99E9060 第 1 頁 L13–L13">[SRC-0EF99E9060 p1:L13–L13]</a></li>
+<li>依文章描述的通常方向：費率為正時多方付給空方；為負時空方付給多方。 <a class="citation" href="data/extracted/SRC-0EF99E9060.md" target="_blank" title="來源 SRC-0EF99E9060 第 1 頁 L14–L14">[SRC-0EF99E9060 p1:L14–L14]</a></li>
+</ul>
+<h3>限制</h3>
+<ul>
+<li>本文不是 MEXC 特定產品的清算、標記價格或資金費率週期規格；使用前須另查交易所規則。 <a class="citation" href="data/extracted/SRC-0EF99E9060.md" target="_blank" title="來源 SRC-0EF99E9060 第 1 頁 L16–L16">[SRC-0EF99E9060 p1:L16–L16]</a></li>
+</ul>
+<h3>來源與邊界</h3>
+<ul>
+<li>如需核對完整原文，請在「已匯入來源登錄」開啟來源網址與章節。</li>
+<li>本文是教學筆記，不是操作訊號或收益承諾。</li>
+</ul><div class="sources"><b>來源文件（筆記定位＋原始網站）</b><div class="source-item">SRC-0EF99E9060 · What Are Forward and Futures Contracts? · <a href="data/extracted/SRC-0EF99E9060.md" target="_blank">查看摘記</a> · <a href="https://academy.binance.com/en/articles/what-are-forward-and-futures-contracts" target="_blank" rel="noopener">核對原文</a></div></div></section><section class="article" id="article-05-risk-management"><span class="eyebrow">交易心理與風險管理 / DRAFT</span><h2>交易風險管理：停損、部位與風險報酬比</h2>
+<blockquote><strong>待人工核准｜來源註記版。</strong> 本文只根據使用者指定的五篇網頁重點摘記撰寫；引用 <code>p1:Lx</code> 是本站中文筆記行號，對照原文請參看筆記所標的原文章節。</blockquote>
+<h3>五步驟風險管理</h3>
+<ul>
+<li>風險管理不只是停損，而是由設定目標、辨認風險、評估風險、訂立因應措施與監督組成的循環。 <a class="citation" href="data/extracted/SRC-12A12D119F.md" target="_blank" title="來源 SRC-12A12D119F 第 1 頁 L9–L9">[SRC-12A12D119F p1:L9–L9]</a></li>
+</ul>
+<h3>1% 規則與風險額度</h3>
+<ul>
+<li>1% 規則規範的是停損觸發時的預設虧損占資產比例，而非限制名目倉位只能占 1%。 <a class="citation" href="data/extracted/SRC-12A12D119F.md" target="_blank" title="來源 SRC-12A12D119F 第 1 頁 L11–L11">[SRC-12A12D119F p1:L11–L11]</a></li>
+<li>文章舉例帳戶為 10,000 美元，若設定每筆風險上限 1%，對應預設最大虧損為 100 美元；只是示意計算。 <a class="citation" href="data/extracted/SRC-12A12D119F.md" target="_blank" title="來源 SRC-12A12D119F 第 1 頁 L12–L12">[SRC-12A12D119F p1:L12–L12]</a></li>
+</ul>
+<h3>退出規劃與風險報酬</h3>
+<ul>
+<li>停損與停利是預先設定出場條件的工具，避免交易者完全依賴現場情緒決策。 <a class="citation" href="data/extracted/SRC-12A12D119F.md" target="_blank" title="來源 SRC-12A12D119F 第 1 頁 L13–L13">[SRC-12A12D119F p1:L13–L13]</a></li>
+<li>1:2 風險報酬比表示預期每承擔 1 單位風險，目標報酬是 2 單位，並非勝率保證。 <a class="citation" href="data/extracted/SRC-12A12D119F.md" target="_blank" title="來源 SRC-12A12D119F 第 1 頁 L14–L14">[SRC-12A12D119F p1:L14–L14]</a></li>
+</ul>
+<h3>非價格風險</h3>
+<ul>
+<li>平台、操作與流動性風險也必須納入管理，不能只看價格方向。 <a class="citation" href="data/extracted/SRC-12A12D119F.md" target="_blank" title="來源 SRC-12A12D119F 第 1 頁 L10–L10">[SRC-12A12D119F p1:L10–L10]</a></li>
+</ul>
+<h3>來源與邊界</h3>
+<ul>
+<li>如需核對完整原文，請在「已匯入來源登錄」開啟來源網址與章節。</li>
+<li>本文是教學筆記，不是操作訊號或收益承諾。</li>
+</ul><div class="sources"><b>來源文件（筆記定位＋原始網站）</b><div class="source-item">SRC-12A12D119F · A Beginner&#x27;s Guide to Risk Management · <a href="data/extracted/SRC-12A12D119F.md" target="_blank">查看摘記</a> · <a href="https://academy.binance.com/en/articles/a-beginners-guide-to-understanding-risk-management" target="_blank" rel="noopener">核對原文</a></div></div></section><section class="article" id="article-06-exchange-and-systemic-risk"><span class="eyebrow">交易心理與風險管理 / DRAFT</span><h2>平台、流動性與系統性風險</h2>
+<blockquote><strong>待人工核准｜來源註記版。</strong> 本文只根據使用者指定的五篇網頁重點摘記撰寫；引用 <code>p1:Lx</code> 是本站中文筆記行號，對照原文請參看筆記所標的原文章節。</blockquote>
+<h3>流動性風險</h3>
+<ul>
+<li>低流動性市場可能使訂單難以按預期價格完成，評估時可觀察成交量及買賣價差。 <a class="citation" href="data/extracted/SRC-12A12D119F.md" target="_blank" title="來源 SRC-12A12D119F 第 1 頁 L15–L15">[SRC-12A12D119F p1:L15–L15]</a></li>
+</ul>
+<h3>平台與操作風險</h3>
+<ul>
+<li>除價格以外，交易平台安全、使用者誤操作與智慧合約漏洞也可能造成損失。 <a class="citation" href="data/extracted/SRC-12A12D119F.md" target="_blank" title="來源 SRC-12A12D119F 第 1 頁 L10–L10">[SRC-12A12D119F p1:L10–L10]</a></li>
+</ul>
+<h3>系統性風險</h3>
+<ul>
+<li>多種高度相關的幣種可能在同一市場事件下同步下跌，因此分散到多枚山寨幣不等於已分散風險。 <a class="citation" href="data/extracted/SRC-12A12D119F.md" target="_blank" title="來源 SRC-12A12D119F 第 1 頁 L16–L16">[SRC-12A12D119F p1:L16–L16]</a></li>
+</ul>
+<h3>持續監督</h3>
+<ul>
+<li>風控應定期回顧；在某一市場階段有效的方法，換環境後可能需要調整。 <a class="citation" href="data/extracted/SRC-12A12D119F.md" target="_blank" title="來源 SRC-12A12D119F 第 1 頁 L17–L17">[SRC-12A12D119F p1:L17–L17]</a></li>
+</ul>
+<h3>來源與邊界</h3>
+<ul>
+<li>如需核對完整原文，請在「已匯入來源登錄」開啟來源網址與章節。</li>
+<li>本文是教學筆記，不是操作訊號或收益承諾。</li>
+</ul><div class="sources"><b>來源文件（筆記定位＋原始網站）</b><div class="source-item">SRC-12A12D119F · A Beginner&#x27;s Guide to Risk Management · <a href="data/extracted/SRC-12A12D119F.md" target="_blank">查看摘記</a> · <a href="https://academy.binance.com/en/articles/a-beginners-guide-to-understanding-risk-management" target="_blank" rel="noopener">核對原文</a></div></div></section><div class="section-head"><h2>已匯入來源登錄</h2></div><div class="source-item">SRC-5D8598E2C5 · How does Bitcoin work? · 01-bitcoin-how-it-works.md · <a href="data/extracted/SRC-5D8598E2C5.md">查看位置化文字</a></div><div class="source-item">SRC-88C323DB9A · Introduction to candlestick charts and patterns · 02-tradingview-candles.md · <a href="data/extracted/SRC-88C323DB9A.md">查看位置化文字</a></div><div class="source-item">SRC-3137BBB83E · How to read advanced charts · 03-coinbase-advanced-charts.md · <a href="data/extracted/SRC-3137BBB83E.md">查看位置化文字</a></div><div class="source-item">SRC-0EF99E9060 · What Are Forward and Futures Contracts? · 04-binance-futures.md · <a href="data/extracted/SRC-0EF99E9060.md">查看位置化文字</a></div><div class="source-item">SRC-12A12D119F · A Beginner&#x27;s Guide to Risk Management · 05-binance-risk-management.md · <a href="data/extracted/SRC-12A12D119F.md">查看位置化文字</a></div><footer class="footer">BTC Trading Wiki · Source-first learning · 不提供即時交易訊號或投資建議</footer></main></div><script src="assets/site.js"></script></body></html>

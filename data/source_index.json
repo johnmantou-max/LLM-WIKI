@@ -1,0 +1,190 @@
+{
+  "generated_at": "2026-11-23",
+  "source_count": 5,
+  "sources": [
+    {
+      "id": "SRC-5D8598E2C5",
+      "file": "01-bitcoin-how-it-works.md",
+      "title": "How does Bitcoin work?",
+      "url": "https://bitcoin.org/en/how-it-works",
+      "published_at": "",
+      "public_ok": true,
+      "sha256": "5d8598e2c5dd279333b2c8181ac1cda74ce960faaab9a77943a98d44a4eaa11e",
+      "pages": [
+        {
+          "page": 1,
+          "lines": [
+            "# 指定來源 01｜中文證據摘記（非原文全文）",
+            "- 原文標題：How does Bitcoin work?",
+            "- 來源機構：Bitcoin.org",
+            "- 原文網址：https://bitcoin.org/en/how-it-works",
+            "- 來源頁面更新日期：頁面未明確列出",
+            "- 內容性質：依指定文章內容整理的繁體中文重點摘要；不是原文下載、全文快照或官方譯文。",
+            "- 精確追溯方式：下列每點標有原文章節名稱；請按原文網址與章節比對。",
+            "## 可追溯重點",
+            "- 【The basics for a new user】錢包可產生比特幣地址，供他人向該地址付款；可建立多個地址。",
+            "- 【Balances - blockchain】區塊鏈是比特幣網路共同使用的公開帳本，確認過的交易會記錄在其中。",
+            "- 【Balances - blockchain】錢包依已確認的交易計算可用餘額；密碼學機制保護帳本順序與完整性。",
+            "- 【Transactions - private keys】錢包使用私鑰對交易簽章，協助證明交易是由有權支用的人發起。",
+            "- 【Transactions - private keys】簽章也能防止交易發布後被其他人任意修改。",
+            "- 【Processing - mining】挖礦將待確認交易納入有效區塊，協助參與節點就交易先後與帳本狀態達成共識。",
+            "- 【Processing - mining】驗證規則使修改已確認的舊區塊會破壞後續區塊的有效性。",
+            "- 【Going down the rabbit hole】此頁是概覽；更深入的協議細節應查比特幣白皮書及開發者文件，不能僅憑本頁推導。",
+            "## 資料限制",
+            "- 本筆記只整理已查看文章的部分內容，未收錄全文；未涵蓋的概念不得歸入此來源。",
+            "- 本地引用 p1:Lx 只代表本筆記行號；完整原文定位請參考每項的【原文章節】及來源網址。"
+          ]
+        }
+      ],
+      "extracted_file": "data/extracted/SRC-5D8598E2C5.md"
+    },
+    {
+      "id": "SRC-88C323DB9A",
+      "file": "02-tradingview-candles.md",
+      "title": "Introduction to candlestick charts and patterns",
+      "url": "https://www.tradingview.com/support/solutions/43000745269-introduction-to-candlestick-charts-and-patterns/",
+      "published_at": "",
+      "public_ok": true,
+      "sha256": "88c323db9afc074fd74b505d1510b85ccfc8906ac602e1159009223db7e119cc",
+      "pages": [
+        {
+          "page": 1,
+          "lines": [
+            "# 指定來源 02｜中文證據摘記（非原文全文）",
+            "- 原文標題：Introduction to candlestick charts and patterns",
+            "- 來源機構：TradingView",
+            "- 原文網址：https://www.tradingview.com/support/solutions/43000745269-introduction-to-candlestick-charts-and-patterns/",
+            "- 來源頁面更新日期：頁面未明確列出",
+            "- 內容性質：依指定文章內容整理的繁體中文重點摘要；不是原文下載、全文快照或官方譯文。",
+            "- 精確追溯方式：下列每點標有原文章節名稱；請按原文網址與章節比對。",
+            "## 可追溯重點",
+            "- 【What are candlestick charts?】單根 K 線的實體對應開盤與收盤之間的價格範圍。",
+            "- 【What are candlestick charts?】K 線上下影線反映該時間區間內的最高價與最低價。",
+            "- 【What are candlestick charts?】一般設定下，綠 K 表示收盤高於開盤，紅 K 表示收盤低於開盤。",
+            "- 【Candles vs bars】K 線與棒狀圖能呈現相似價格資料；K 線的實體通常更容易辨識開收盤位置。",
+            "- 【Settings】圖表可調整 K 線實體、外框與影線顏色，也能以相對前收盤價的方式著色。",
+            "- 【What are candlestick patterns?】K 線型態根據單根或多根 K 線的排列方式描述潛在趨勢或市場情緒。",
+            "- 【What are candlestick patterns?】常見型態會被歸為反轉、延續與中性三類；型態出現不代表未來必然如此。",
+            "- 【Candlestick patterns indicators】TradingView 可透過內建 K 線型態指標輔助識別模式。",
+            "## 資料限制",
+            "- 本筆記只整理已查看文章的部分內容，未收錄全文；未涵蓋的概念不得歸入此來源。",
+            "- 本地引用 p1:Lx 只代表本筆記行號；完整原文定位請參考每項的【原文章節】及來源網址。"
+          ]
+        }
+      ],
+      "extracted_file": "data/extracted/SRC-88C323DB9A.md"
+    },
+    {
+      "id": "SRC-3137BBB83E",
+      "file": "03-coinbase-advanced-charts.md",
+      "title": "How to read advanced charts",
+      "url": "https://www.coinbase.com/learn/advanced-trading/reading-financial-charts",
+      "published_at": "",
+      "public_ok": true,
+      "sha256": "3137bbb83e97a52874f5befbe7b358c53a33504572f4a9e36a98249ea00dae8e",
+      "pages": [
+        {
+          "page": 1,
+          "lines": [
+            "# 指定來源 03｜中文證據摘記（非原文全文）",
+            "- 原文標題：How to read advanced charts",
+            "- 來源機構：Coinbase",
+            "- 原文網址：https://www.coinbase.com/learn/advanced-trading/reading-financial-charts",
+            "- 來源頁面更新日期：頁面未明確列出",
+            "- 內容性質：依指定文章內容整理的繁體中文重點摘要；不是原文下載、全文快照或官方譯文。",
+            "- 精確追溯方式：下列每點標有原文章節名稱；請按原文網址與章節比對。",
+            "## 可追溯重點",
+            "- 【How to read candlesticks】加密市場全天候交易；K 線的開盤與收盤由選定時間區間的起訖價格定義。",
+            "- 【How to read candlesticks】K 線包含最高、最低、開盤、收盤四項資訊，適合與指標一起研究價格歷史。",
+            "- 【Relative Strength Index (RSI)】RSI 衡量某時間區間內上漲與下跌價格變化的相對強度，數值範圍為 0 至 100。",
+            "- 【Relative Strength Index (RSI)】70 以上常被視為超買、30 以下常被視為超賣的提示，但不直接等於賣出或買入命令。",
+            "- 【Simple Moving Average (SMA)】SMA 是所選期間的價格平均值，可輔助觀察較大尺度的價格方向。",
+            "- 【Exponential Moving Average (EMA)】EMA 對近期價格賦予更高權重，因此通常比同期間 SMA 更快回應價格轉折。",
+            "- 【Moving Average Convergence Divergence (MACD)】文中舉的標準 MACD 線為 12 日 EMA 減 26 日 EMA，訊號線是 MACD 的 9 日 EMA。",
+            "- 【Moving Average Convergence Divergence (MACD)】MACD 柱狀圖用來表示 MACD 線與訊號線之間的差距。",
+            "- 【Disclosure】技術分析是研究過去的走勢；過去績效無法保證或預測未來結果。",
+            "## 資料限制",
+            "- 本筆記只整理已查看文章的部分內容，未收錄全文；未涵蓋的概念不得歸入此來源。",
+            "- 本地引用 p1:Lx 只代表本筆記行號；完整原文定位請參考每項的【原文章節】及來源網址。"
+          ]
+        }
+      ],
+      "extracted_file": "data/extracted/SRC-3137BBB83E.md"
+    },
+    {
+      "id": "SRC-0EF99E9060",
+      "file": "04-binance-futures.md",
+      "title": "What Are Forward and Futures Contracts?",
+      "url": "https://academy.binance.com/en/articles/what-are-forward-and-futures-contracts",
+      "published_at": "2026-04-28",
+      "public_ok": true,
+      "sha256": "0ef99e90600f92aec233a7198c33f0dea001ff718870a0c1d6613e193e4171cf",
+      "pages": [
+        {
+          "page": 1,
+          "lines": [
+            "# 指定來源 04｜中文證據摘記（非原文全文）",
+            "- 原文標題：What Are Forward and Futures Contracts?",
+            "- 來源機構：Binance Academy",
+            "- 原文網址：https://academy.binance.com/en/articles/what-are-forward-and-futures-contracts",
+            "- 來源頁面更新日期：2026-04-28",
+            "- 內容性質：依指定文章內容整理的繁體中文重點摘要；不是原文下載、全文快照或官方譯文。",
+            "- 精確追溯方式：下列每點標有原文章節名稱；請按原文網址與章節比對。",
+            "## 可追溯重點",
+            "- 【Forward Contracts】遠期合約通常由交易雙方私下議定，合約條件較可客製化，也存在較直接的對手方違約風險。",
+            "- 【Futures Contracts】傳統期貨採標準化條款交易，透過交易所及結算制度降低雙邊直接違約風險。",
+            "- 【Futures Contracts】期貨允許利用槓桿控制超過投入資金的部位，獲利和虧損都有放大效果。",
+            "- 【Futures Contracts】槓桿部位須維持保證金；不足時可能被強制平倉。",
+            "- 【Perpetual futures contracts】加密貨幣永續合約沒有固定到期日，並利用資金費率機制協助契約價格貼近現貨價格。",
+            "- 【FAQ - What are perpetual futures contracts?】在文中描述的通常機制下，正資金費率由多方付給空方，負資金費率由空方付給多方。",
+            "- 【How Forward and Futures Contracts Are Used】期貨可用於避險或投機；價格偏離與槓桿風險需要一起考慮。",
+            "- 【Closing Thoughts】本文屬於一般教育介紹，不是任何指定交易所清算參數、手續費或資金費率週期的完整規格。",
+            "## 資料限制",
+            "- 本筆記只整理已查看文章的部分內容，未收錄全文；未涵蓋的概念不得歸入此來源。",
+            "- 本地引用 p1:Lx 只代表本筆記行號；完整原文定位請參考每項的【原文章節】及來源網址。"
+          ]
+        }
+      ],
+      "extracted_file": "data/extracted/SRC-0EF99E9060.md"
+    },
+    {
+      "id": "SRC-12A12D119F",
+      "file": "05-binance-risk-management.md",
+      "title": "A Beginner's Guide to Risk Management",
+      "url": "https://academy.binance.com/en/articles/a-beginners-guide-to-understanding-risk-management",
+      "published_at": "2026-07-21",
+      "public_ok": true,
+      "sha256": "12a12d119f33bb0c946574bfb7e1a648a4debec6e1bfd29fd8eeb9ab286336ea",
+      "pages": [
+        {
+          "page": 1,
+          "lines": [
+            "# 指定來源 05｜中文證據摘記（非原文全文）",
+            "- 原文標題：A Beginner's Guide to Risk Management",
+            "- 來源機構：Binance Academy",
+            "- 原文網址：https://academy.binance.com/en/articles/a-beginners-guide-to-understanding-risk-management",
+            "- 來源頁面更新日期：2026-07-21",
+            "- 內容性質：依指定文章內容整理的繁體中文重點摘要；不是原文下載、全文快照或官方譯文。",
+            "- 精確追溯方式：下列每點標有原文章節名稱；請按原文網址與章節比對。",
+            "## 可追溯重點",
+            "- 【The Risk Management Process】風險管理包括設定目標、辨認風險、評估風險、安排因應措施與持續監督五個面向。",
+            "- 【Types of Financial Risk in Crypto】加密資產風險不只價格波動，也包含流動性、交易平台、操作失誤與智慧合約等風險。",
+            "- 【Common Risk Management Strategies - The 1% trading rule】1% 規則指每筆交易在停損被觸發時的預設損失不超過帳戶資產的 1%，不是部位大小只能有 1%。",
+            "- 【Common Risk Management Strategies - The 1% trading rule】文章示例：帳戶若為 10,000 美元，以 1% 作為單筆風險上限就是 100 美元；這是示例而不是獲利保證。",
+            "- 【Stop-loss and take-profit orders】停損與停利屬於預先規劃退出位置的工具，可減少臨場情緒干擾，但不保證成果。",
+            "- 【Risk-reward ratio】1:2 風險報酬比表示每承擔 1 單位潛在虧損，對應目標獲利為 2 單位。",
+            "- 【Liquidity risk】市場深度不足可能使大額訂單難以在預期價格成交；交易前可觀察成交量與買賣價差。",
+            "- 【Systemic risk】同時持有多種相關性很高的加密資產，不必然能充分分散系統性風險。",
+            "- 【Monitoring】風險管理需要持續回顧，避免把某一種市場狀況下的表現直接推廣到所有行情。",
+            "## 資料限制",
+            "- 本筆記只整理已查看文章的部分內容，未收錄全文；未涵蓋的概念不得歸入此來源。",
+            "- 本地引用 p1:Lx 只代表本筆記行號；完整原文定位請參考每項的【原文章節】及來源網址。"
+          ]
+        }
+      ],
+      "extracted_file": "data/extracted/SRC-12A12D119F.md"
+    }
+  ],
+  "errors": [],
+  "duplicates": []
+}

@@ -1,0 +1,71 @@
+{
+  "source_count": 5,
+  "approved_count": 0,
+  "preview_article_count": 6,
+  "preview_mode": true,
+  "six_categories_ready": false,
+  "slide_count": 9,
+  "articles": [
+    {
+      "slug": "01-bitcoin-blockchain",
+      "title": "比特幣如何運作：帳本、私鑰與挖礦",
+      "category": "BTC 與區塊鏈基礎",
+      "summary": "從錢包地址、公開帳本、交易簽章到挖礦確認，理解 Bitcoin 運作的最基本結構。",
+      "refs": [
+        "SRC-5D8598E2C5"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "02-reading-candles",
+      "title": "如何閱讀 K 線與型態",
+      "category": "技術分析",
+      "summary": "看懂開高低收、實體與影線，以及型態屬於可能性訊號而非必然預測。",
+      "refs": [
+        "SRC-3137BBB83E",
+        "SRC-88C323DB9A"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "03-ema-rsi-macd",
+      "title": "RSI、SMA、EMA 與 MACD 的解讀",
+      "category": "技術分析",
+      "summary": "比較動能與趨勢型指標的功能、典型解讀及過度依賴單一訊號的風險。",
+      "refs": [
+        "SRC-3137BBB83E"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "04-perpetual-futures",
+      "title": "永續合約、槓桿與資金費率",
+      "category": "永續合約與槓桿",
+      "summary": "辨識傳統期貨與永續合約的不同，理解保證金、槓桿與資金費率的作用。",
+      "refs": [
+        "SRC-0EF99E9060"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "05-risk-management",
+      "title": "交易風險管理：停損、部位與風險報酬比",
+      "category": "交易心理與風險管理",
+      "summary": "建立風險額度、停損及監督流程，理解 1% 規則與風險報酬比的意義。",
+      "refs": [
+        "SRC-12A12D119F"
+      ],
+      "status": "draft"
+    },
+    {
+      "slug": "06-exchange-and-systemic-risk",
+      "title": "平台、流動性與系統性風險",
+      "category": "交易心理與風險管理",
+      "summary": "區分市場波動、流動性不足、平台與操作風險，避免誤以為分散持幣就是零風險。",
+      "refs": [
+        "SRC-12A12D119F"
+      ],
+      "status": "draft"
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
-  "source_count": 5,
-  "approved_count": 0,
-  "preview_article_count": 6,
-  "preview_mode": true,
-  "six_categories_ready": false,
-  "slide_count": 9,
+  "source_count": 11,
+  "approved_count": 10,
+  "preview_article_count": 10,
+  "preview_mode": false,
+  "six_categories_ready": true,
+  "slide_count": 11,
   "articles": [
     {
       "slug": "01-bitcoin-blockchain",
@@ -14,7 +14,7 @@
       "refs": [
         "SRC-5D8598E2C5"
       ],
-      "status": "draft"
+      "status": "approved"
     },
     {
       "slug": "02-reading-candles",
@@ -25,7 +25,7 @@
         "SRC-3137BBB83E",
         "SRC-88C323DB9A"
       ],
-      "status": "draft"
+      "status": "approved"
     },
     {
       "slug": "03-ema-rsi-macd",
@@ -35,7 +35,7 @@
       "refs": [
         "SRC-3137BBB83E"
       ],
-      "status": "draft"
+      "status": "approved"
     },
     {
       "slug": "04-perpetual-futures",
@@ -45,7 +45,7 @@
       "refs": [
         "SRC-0EF99E9060"
       ],
-      "status": "draft"
+      "status": "approved"
     },
     {
       "slug": "05-risk-management",
@@ -55,7 +55,7 @@
       "refs": [
         "SRC-12A12D119F"
       ],
-      "status": "draft"
+      "status": "approved"
     },
     {
       "slug": "06-exchange-and-systemic-risk",
@@ -65,7 +65,50 @@
       "refs": [
         "SRC-12A12D119F"
       ],
-      "status": "draft"
+      "status": "approved"
+    },
+    {
+      "slug": "07-smc-market-structure",
+      "title": "SMC 市場結構：BOS、CHoCH 與流動性",
+      "category": "價格行為與 SMC",
+      "summary": "以圖表上可觀察的高低點、結構突破與潛在流動性區域理解 SMC，並區分推測與可驗證證據。",
+      "refs": [
+        "SRC-82B2131286"
+      ],
+      "status": "approved"
+    },
+    {
+      "slug": "08-smc-ob-fvg",
+      "title": "OB 與 FVG：如何區分供需區和失衡區",
+      "category": "價格行為與 SMC",
+      "summary": "用 SMC 指標作者的定義理解訂單區塊與價格不平衡，辨識不確定性及常見誤解。",
+      "refs": [
+        "SRC-82B2131286"
+      ],
+      "status": "approved"
+    },
+    {
+      "slug": "09-fed-cpi-treasury",
+      "title": "Fed、CPI 與十年期美債殖利率",
+      "category": "總體經濟",
+      "summary": "建立 CPI、利率決策與十年期美債殖利率的基本定義，避免直接推成 BTC 必然漲跌。",
+      "refs": [
+        "SRC-3884564D79",
+        "SRC-9FC3BE4C22",
+        "SRC-D77583E550"
+      ],
+      "status": "approved"
+    },
+    {
+      "slug": "10-us-dollar-dxy",
+      "title": "DXY 美元指數與廣義美元指數的差別",
+      "category": "總體經濟",
+      "summary": "了解 DXY 組成、權重與 FRED Broad Dollar Index 的差異，避免混用不同指數。",
+      "refs": [
+        "SRC-45409C5A38",
+        "SRC-9D7999C6E3"
+      ],
+      "status": "approved"
     }
   ]
 }

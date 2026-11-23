@@ -33,7 +33,7 @@ def run():
         checks.append((category,name,bool(ok),str(detail)))
     data=read_json(ROOT/'data'/'source_index.json',{})
     sources=data.get('sources',[]);src={s['id']:s for s in sources if 'id' in s}
-    ck('使用者選定來源的可讀摘記 ingest ≥5 份',len(sources)>=5, f'目前 {len(sources)} 份；非原文全文','SOURCE')
+    ck('使用者指定／授權來源摘要 ingest ≥5 份',len(sources)>=5, f'目前 {len(sources)} 份；非原文全文','SOURCE')
     ck('來源 ID 唯一',len(src)==len(sources))
     ck('無解析失敗',not data.get('errors',[]), ', '.join(data.get('errors',[])))
     for s in sources:
@@ -69,7 +69,14 @@ def run():
             srcitem=src.get(sid)
             valid=bool(srcitem and 1<=num<=len(srcitem['pages']) and 1<=lo<=hi<=len(srcitem['pages'][num-1]['lines']))
             ck(f'{p.name} 草稿引用 {sid} p{num} L{lo}–L{hi}', valid, '摘記位置存在，不等於原文逐字核對','DRAFT')
-    ck('草稿引文位置檢查已執行',draftrefs>0, f'{draftrefs} 處摘記引文','DRAFT')
+    ck('未核准草稿狀態一致',len(drafts)==0 or draftrefs>0, f'未核准文章 {len(drafts)} 篇','STRUCTURE')
+    # Knowledge link validation is structural, not semantic approval.
+    relation_doc=read_json(ROOT/'wiki'/'relations.json',{'relations':[]})
+    slugs={p.stem for p,_,_ in approved+drafts}
+    ck('六大領域已有可查詢 Wiki 文章',set(CATS).issubset({m.get('category') for _,m,_ in approved+drafts}),'涵蓋六大領域','STRUCTURE')
+    for j,rel in enumerate(relation_doc.get('relations',[]),1):
+        ck(f'關聯 {j} 兩端文章存在',rel.get('from') in slugs and rel.get('to') in slugs and rel.get('from')!=rel.get('to'),'不可引用不存在的文章')
+        ck(f'關聯 {j} 至少一個來源 ID 且都已登錄',bool(rel.get('source_ids')) and all(x in src for x in rel.get('source_ids',[])),'不代表連結語義獲得核准')
     ck('六大領域皆有 approved 文章',set(CATS).issubset({m.get('category') for _,m,_ in approved}),f'目前涵蓋 {len({m.get("category") for _,m,_ in approved})} 類','BLOCKER')
     ck('approved 文章 ≥6 篇',len(approved)>=6, f'{len(approved)} 篇','BLOCKER')
     ck('經核准文章總引文 >0',total_cites>0,f'{total_cites} 處','BLOCKER')
@@ -89,15 +96,15 @@ def run():
             ck(f'{html} 連結：{loc}',target.is_relative_to(ROOT.resolve()) and target.is_file())
     site=read_json(ROOT/'data/site.json',{})
     count=int(site.get('slide_count',0))
-    ck('HTML 簡報預覽 8–15 頁',8<=count<=15,f'{count} 頁；DRAFT 不等於正式版','STRUCTURE')
+    ck('HTML 簡報 8–15 頁',8<=count<=15,f'{count} 頁','STRUCTURE')
     ck('正式簡報已核准',8<=count<=15 and not site.get('preview_mode',True) and bool(site.get('six_categories_ready')), '需人工核准 + 六領域完整','BLOCKER')
     ck('實際已核准文章計數正確',site.get('approved_count',-1)==len(approved))
-    ck('草稿預覽文章計數正確',site.get('preview_article_count',-1)==len(approved)+len(drafts))
+    ck('文章預覽計數與來源一致',site.get('preview_article_count',-1)==len(approved)+len(drafts))
     ck('Wiki 的來源數據與 ingest 一致',site.get('source_count',-1)==len(sources))
     ck('簡報內容由六領域資料支撐',bool(site.get('six_categories_ready')),'需通過六類核准及 5 篇來源','BLOCKER')
     review=ROOT/'docs/manual-review.md'
     rv=review.read_text(encoding='utf-8') if review.is_file() else ''
-    ck('人工/獨立 AI 引文語義審查已簽核','審查結論：已通過' in rv and '審查結論：**未審查' not in rv,'需要人工真實完成後更新','BLOCKER')
+    ck('使用者人工核准紀錄已登錄','審查結論：已通過' in rv and '審查結論：**未審查' not in rv,'使用者確認後登錄；不代表獨立 AI 原文逐句審查','BLOCKER')
     passed=sum(1 for _,_,ok,_ in checks if ok);total=len(checks);success=passed==total
     report=['# BTC Trading Wiki | 靜態品質檢查', '',f'- 執行日期：{datetime.now().isoformat(timespec="seconds")}',f'- 整體狀態：**{"PASS / 靜態關卡通過" if success else "INCOMPLETE / 尚未全部通過"}**',f'- 總計：**{passed}/{total}** 項通過。','', '| 類型 | 驗證項目 | 結果 | 補充 |','|---|---|---|---|']
     for cat,name,ok,detail in checks:

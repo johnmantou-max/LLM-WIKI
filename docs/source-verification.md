@@ -12,4 +12,15 @@
 
 ## 查核限制
 
-未保留第三方原始文章全文，故這是選定五個網頁→五份原創來源筆記的實際批次 ingest。若老師要求完整原文文檔作為 raw，需在合法授權下另取。SMC 與總體經濟主題目前沒有直接依據，禁止填補。
+未保留第三方原始文章全文，故這是選定五個網頁→五份原創來源筆記的實際批次 ingest。若老師要求完整原文文檔作為 raw，需在合法授權下另取。以下另補充六份使用者授權新增的公開來源。這些仍是自撰摘要，並非原文全文：
+
+## 新增來源（2026-11-23）
+
+- [SMC / LuxAlgo / TradingView](https://www.tradingview.com/script/CnB3fSph-Smart-Money-Concepts-SMC-LuxAlgo/)
+- [FOMC / Federal Reserve](https://www.federalreserve.gov/faqs/federal-open-market-committee-fomc.htm)
+- [CPI / BLS](https://www.bls.gov/cpi/overview.htm)
+- [10-year yield DGS10 / FRED](https://fred.stlouisfed.org/series/DGS10)
+- [US Dollar Index DXY / ICE](https://www.ice.com/insights/indexation-and-etfs/managing-us-dollar-risk-in-uncertain_times)
+- [Broad Dollar Index DTWEXBGS / FRED](https://fred.stlouisfed.org/series/DTWEXBGS)
+
+**語義限制：** 這些資料只能支持指標定義、制度與 SMC 指標作者說法；不能單獨驗證 BTC 與宏觀變數之間的統計關聯或 SMC 交易法有效性。

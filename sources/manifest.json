@@ -49,7 +49,67 @@
       "public_ok": true,
       "source_type": "user_selected_web_article_curated_paraphrase",
       "note": "手動指定的公開文章；raw 中存的是繁體中文人工編輯摘要，不是原文全文。"
+    },
+    {
+      "file": "06-smc-luxalgo.md",
+      "title": "Smart Money Concepts (SMC) [LuxAlgo]",
+      "url": "https://www.tradingview.com/script/CnB3fSph-Smart-Money-Concepts-SMC-LuxAlgo/",
+      "publisher": "LuxAlgo on TradingView",
+      "published_at": "",
+      "public_ok": true,
+      "source_type": "assistant_supplemented_curated_paraphrase",
+      "note": "2026-11-23 使用者在對話要求自行補齊資料；本站儲存的是來源核對後的中文摘要，非原文全文。"
+    },
+    {
+      "file": "07-federal-reserve-fomc.md",
+      "title": "What is the Federal Open Market Committee?",
+      "url": "https://www.federalreserve.gov/faqs/federal-open-market-committee-fomc.htm",
+      "publisher": "Federal Reserve Board",
+      "published_at": "",
+      "public_ok": true,
+      "source_type": "assistant_supplemented_curated_paraphrase",
+      "note": "2026-11-23 使用者在對話要求自行補齊資料；本站儲存的是來源核對後的中文摘要，非原文全文。"
+    },
+    {
+      "file": "08-bls-cpi-overview.md",
+      "title": "Consumer Price Indexes Overview",
+      "url": "https://www.bls.gov/cpi/overview.htm",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "published_at": "",
+      "public_ok": true,
+      "source_type": "assistant_supplemented_curated_paraphrase",
+      "note": "2026-11-23 使用者在對話要求自行補齊資料；本站儲存的是來源核對後的中文摘要，非原文全文。"
+    },
+    {
+      "file": "09-fred-ten-year-yield.md",
+      "title": "10-Year Treasury Constant Maturity Yield (DGS10)",
+      "url": "https://fred.stlouisfed.org/series/DGS10",
+      "publisher": "FRED / Federal Reserve Board",
+      "published_at": "",
+      "public_ok": true,
+      "source_type": "assistant_supplemented_curated_paraphrase",
+      "note": "2026-11-23 使用者在對話要求自行補齊資料；本站儲存的是來源核對後的中文摘要，非原文全文。"
+    },
+    {
+      "file": "10-ice-us-dollar-index.md",
+      "title": "Managing U.S. dollar risk in uncertain times",
+      "url": "https://www.ice.com/insights/indexation-and-etfs/managing-us-dollar-risk-in-uncertain_times",
+      "publisher": "Intercontinental Exchange (ICE)",
+      "published_at": "",
+      "public_ok": true,
+      "source_type": "assistant_supplemented_curated_paraphrase",
+      "note": "2026-11-23 使用者在對話要求自行補齊資料；本站儲存的是來源核對後的中文摘要，非原文全文。"
+    },
+    {
+      "file": "11-fred-broad-dollar.md",
+      "title": "Nominal Broad U.S. Dollar Index (DTWEXBGS)",
+      "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+      "publisher": "FRED / Federal Reserve Board",
+      "published_at": "",
+      "public_ok": true,
+      "source_type": "assistant_supplemented_curated_paraphrase",
+      "note": "2026-11-23 使用者在對話要求自行補齊資料；本站儲存的是來源核對後的中文摘要，非原文全文。"
     }
   ],
-  "instructions": "本次使用者明確指定 5 篇網頁，保留其 URL 與經查核的精簡中文摘記。未保存原文全文，詳細證據需比對原始章節。"
+  "instructions": "首五篇由使用者指定，其後六篇為使用者授權 AI 補充的可靠來源；所有 raw 為中文摘記，非原文章節全文。"
 }

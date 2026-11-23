@@ -1,28 +1,28 @@
-# BTC Trading Wiki｜五篇使用者指定來源版
+# BTC Trading Wiki｜正式版
 
-依照使用者已確認的十項需求，採用 Karpathy 風格的 LLM Wiki、Graph + Loop、五篇文章來源與 GitHub Pages 靜態展示。
+本專案依照先前確認的需求，採用 Karpathy 風格的來源導向 LLM Wiki，透過 Graph 與 Loop 分階段整理、驗證並產生 HTML Wiki、教學簡報及知識關聯圖。
 
-## 本輪成果與真實狀態
+## 本次增補
 
-- ✅ 已核對使用者選定的 **5 篇公開網頁**（Bitcoin.org、TradingView、Coinbase、Binance Academy×2）。
-- ✅ 將這五篇網頁的**精簡中文重點摘記**置於 `raw/`，執行批次 `ingest.py`，取得 5 個 SHA-256 及位置化文字。
-- ✅ 撰寫 **6 篇 Markdown Wiki 草稿**，保留來源 ID，並可以在 `wiki.html` 搜尋、分類與查看完整內容。
-- ✅ 生成可瀏覽的 **9 頁 HTML 教學簡報草稿**，以及 Graph / Loop 說明與知識關聯預覽。
-- ⬜ Wiki 6 篇仍為 `draft`，未經使用者人工核准，也未經獨立對話的 AI 內容審查。
-- ⬜ 五篇原文未全文收錄；本站儲存的是自撰摘記與原網址、原文章節。**不能宣稱已匯入五篇原始文章全文。**
-- ⬜ 五篇文章目前不足以支持兩項已規劃領域：**SMC（OB／FVG）**與**總體經濟（Fed／CPI／DXY）**，故沒有憑空編造這些領域的知識文。
+- 前五篇為使用者原先指定的公開網頁；後六篇依使用者明確授權「自己補齊需要的資料」，補充 SMC、Fed、CPI、美債殖利率、DXY、廣義美元指數資料。
+- `raw/` 記錄 11 份繁體中文來源摘記，保留原文網址與小節標籤。不是網頁原文全文。
+- `wiki/pages/` 收錄 10 篇可追溯摘要筆記，覆蓋六大領域。10 篇文章已由使用者確認為正式版，狀態均為 `approved`。
+- `wiki/relations.json` 包含八條已核准的學習關聯；不代表已驗證市場因果。
+- `deck.html` 是正式教學簡報；網頁與簡報均以 `assets/` 內的 CSS/JS 運作，上傳 GitHub 時請保留資料夾。
+- 實作腳本：`scripts/ingest.py`、`scripts/build.py`、`scripts/check.py`。靜態檢查**不是**獨立 AI 語義審查。
 
-## 專案檔案
+## 網頁
 
-| 路徑 | 功能 |
-|---|---|
-| `AGENTS.md` | 需求與資料邊界、Graph/Loop、引用及停止條件 |
-| `raw/01-05*.md` | 五份指定原文章節的繁中摘要，非原文全文 |
-| `sources/manifest.json` | 網址、機構、更新日期與資料性質 |
-| `data/source_index.json` | SHA-256、摘記行號、來源 ID |
-| `data/extracted/` | 具 `p1:Lx` 定位的本站摘要 |
-| `wiki/pages/` | 六篇含精確本地註記的 draft 文章 |
-| `wiki/index.md`, `wiki/log.md` | Wiki 索引與處理過程 |
-| `index.html`, `wiki.html`, `graph.html`, `deck.html`, `workflow.html` | 可用 GitHub Pages 開啟的網頁 |
-| `docs/import-report.md` | 批次匯入證明 |
-| `reports/latest.md` | 靜態檢查及未通過關卡 |
+- `index.html`：首頁
+- `wiki.html`：學習知識庫與來源引用
+- `graph.html`：知識關聯
+- `deck.html`：教學簡報
+- `workflow.html`：Graph / Loop 說明
+
+## 引用與限制
+
+來源以本站摘記 `[@SRC-...:p1:Lx-Ly]` 定位；精確到本地筆記行號，不是原文網頁全文行號。請透過原文 URL 和小節核對主張。尤其 SMC 與 BTC 宏觀因果，只能作為研究框架而非保證有效策略。
+
+核准紀錄位於 `docs/manual-review.md`；執行報告位於 `reports/latest.md`。
+
+**發布狀態：** 使用者確認正式發布（2026-11-23）。引用位置指本站來源摘要，非網頁原文行號。

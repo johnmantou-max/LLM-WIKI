@@ -1,1 +1,78 @@
-{"relations": [], "note": "只有通過審查、有具體來源支持的文章關聯才寫入 relations。"}
+{
+  "status": "approved",
+  "note": "依來源整理的學習關聯；使用者已核准正式發布。線條僅表示知識連結，不保證 BTC 價格因果。",
+  "relations": [
+    {
+      "from": "02-reading-candles",
+      "to": "03-ema-rsi-macd",
+      "relation": "K 線的價格序列提供技術指標的計算背景（學習次序）。",
+      "source_ids": [
+        "SRC-88C323DB9A",
+        "SRC-3137BBB83E"
+      ]
+    },
+    {
+      "from": "03-ema-rsi-macd",
+      "to": "05-risk-management",
+      "relation": "指標屬於分析工具，不能取代交易風險管理。",
+      "source_ids": [
+        "SRC-3137BBB83E",
+        "SRC-12A12D119F"
+      ]
+    },
+    {
+      "from": "04-perpetual-futures",
+      "to": "05-risk-management",
+      "relation": "槓桿放大損益，交易前應了解保證金與風險額度。",
+      "source_ids": [
+        "SRC-0EF99E9060",
+        "SRC-12A12D119F"
+      ]
+    },
+    {
+      "from": "05-risk-management",
+      "to": "06-exchange-and-systemic-risk",
+      "relation": "風險管理也包含流動性、平台與系統性風險。",
+      "source_ids": [
+        "SRC-12A12D119F"
+      ]
+    },
+    {
+      "from": "02-reading-candles",
+      "to": "07-smc-market-structure",
+      "relation": "SMC 的結構標籤建立於價格與擺動高低點觀察。",
+      "source_ids": [
+        "SRC-82B2131286"
+      ]
+    },
+    {
+      "from": "07-smc-market-structure",
+      "to": "08-smc-ob-fvg",
+      "relation": "OB 與 FVG 是 SMC 工具中不同的價格區域標記。",
+      "source_ids": [
+        "SRC-82B2131286"
+      ]
+    },
+    {
+      "from": "09-fed-cpi-treasury",
+      "to": "10-us-dollar-dxy",
+      "relation": "利率、通膨、美元指數分屬不同宏觀觀測變數，不可把它們當成同一數據。",
+      "source_ids": [
+        "SRC-9FC3BE4C22",
+        "SRC-D77583E550",
+        "SRC-9D7999C6E3"
+      ]
+    },
+    {
+      "from": "09-fed-cpi-treasury",
+      "to": "05-risk-management",
+      "relation": "宏觀數據無法直接保證 BTC 價格方向，因此研究時仍需風險規劃。",
+      "source_ids": [
+        "SRC-9FC3BE4C22",
+        "SRC-12A12D119F"
+      ]
+    }
+  ],
+  "review_method": "user_confirmation_in_chat",
+  "review_date": "2026-11-23"
+}

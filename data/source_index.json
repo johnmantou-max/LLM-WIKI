@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-11-23",
-  "source_count": 5,
+  "source_count": 11,
   "sources": [
     {
       "id": "SRC-5D8598E2C5",
@@ -183,6 +183,201 @@
         }
       ],
       "extracted_file": "data/extracted/SRC-12A12D119F.md"
+    },
+    {
+      "id": "SRC-82B2131286",
+      "file": "06-smc-luxalgo.md",
+      "title": "Smart Money Concepts (SMC) [LuxAlgo]",
+      "url": "https://www.tradingview.com/script/CnB3fSph-Smart-Money-Concepts-SMC-LuxAlgo/",
+      "published_at": "",
+      "public_ok": true,
+      "sha256": "82b2131286a504998e633ef8958b923c550efb01bf4b7f17728bf4860f203960",
+      "pages": [
+        {
+          "page": 1,
+          "lines": [
+            "# 增補來源｜中文證據摘記（非原文全文）",
+            "- 原文標題：Smart Money Concepts (SMC) [LuxAlgo]",
+            "- 來源機構：LuxAlgo on TradingView",
+            "- 原文網址：https://www.tradingview.com/script/CnB3fSph-Smart-Money-Concepts-SMC-LuxAlgo/",
+            "- 資料核對日：2026-11-23",
+            "- 內容性質：依公開網頁重新整理之繁體中文重點；不是原文全文。",
+            "- 精確追溯方式：標明原網頁小節，p1:Lx 是本站摘記行號，非原網頁段落行號。",
+            "## 原文小節：Features",
+            "- 【Features】SMC 工具包含 internal/swing 市場結構、BOS、CHoCH、看漲／看跌 Order Blocks、Equal Highs/Lows、Fair Value Gaps、前高前低與 premium/discount 區間。",
+            "- 【Features: Market Structure】BOS 與 CHoCH 是對市場結構變化的標示；大級別 swing 結構與小級別 internal 結構的標籤可能不同。",
+            "- 【Features: Order Blocks】Order Blocks 以價格區域方框標示潛在交易關注區，作者將其作為可能的確認進場區或目標區；不能藉由方框證實真有機構訂單。",
+            "- 【Features: Fair Value Gaps】Fair Value Gaps 用方框突出價格走勢中的不平衡區域；有門檻及時間框架等可調設定。",
+            "- 【Features: Equal Highs and Lows】接近的擺動高點與低點（EQH/EQL）是該指標標示的價格區域；不能直接認定一定有止損單在該處。",
+            "- 【Usage】BOS/CHoCH 可以協助辨識趨勢延續或可能的轉變，但是否有效仍取決於所用識別條件及市場背景。",
+            "- 【Conclusion】作者明確提醒：SMC 名稱與此類指標不保證存在機構或銀行級流動性，也沒有資料證明這套教學的有效性。",
+            "- 【應用界線】本篇是一位第三方指標作者的 SMC 方法描述，不是交易所逐筆委託簿或機構實際成交證據。",
+            "## 使用邊界",
+            "- 原網頁內容可能更新。摘要只支持所列事實；對 BTC 價格的推論另行標為待實證。"
+          ]
+        }
+      ],
+      "extracted_file": "data/extracted/SRC-82B2131286.md"
+    },
+    {
+      "id": "SRC-9FC3BE4C22",
+      "file": "07-federal-reserve-fomc.md",
+      "title": "What is the Federal Open Market Committee?",
+      "url": "https://www.federalreserve.gov/faqs/federal-open-market-committee-fomc.htm",
+      "published_at": "",
+      "public_ok": true,
+      "sha256": "9fc3be4c22c73bcc50d921fdd23818187e31d65ff10a981b929416bdc4e94b30",
+      "pages": [
+        {
+          "page": 1,
+          "lines": [
+            "# 增補來源｜中文證據摘記（非原文全文）",
+            "- 原文標題：What is the Federal Open Market Committee?",
+            "- 來源機構：Federal Reserve Board",
+            "- 原文網址：https://www.federalreserve.gov/faqs/federal-open-market-committee-fomc.htm",
+            "- 資料核對日：2026-11-23",
+            "- 內容性質：依公開網頁重新整理之繁體中文重點；不是原文全文。",
+            "- 精確追溯方式：標明原網頁小節，p1:Lx 是本站摘記行號，非原網頁段落行號。",
+            "## 原文小節：What is the FOMC?",
+            "- 【What is the FOMC?】FOMC 是美國聯準會系統中制定全國貨幣政策的委員會。",
+            "- 【What is the FOMC?】FOMC 設定聯邦基金利率的目標區間；目標調整會影響其他市場利率及銀行貸款、存款利率。",
+            "- 【What is the FOMC?】FOMC 也決定聯準會持有資產的規模與構成，並向公眾溝通未來政策方向。",
+            "- 【What is the FOMC?】FOMC 每年有八次例行會議，必要時可增加會議。",
+            "- 【重要限制】本文定義貨幣政策制度，沒有主張每次升息或降息都必然令 BTC 上漲或下跌。",
+            "## 使用邊界",
+            "- 原網頁內容可能更新。摘要只支持所列事實；對 BTC 價格的推論另行標為待實證。"
+          ]
+        }
+      ],
+      "extracted_file": "data/extracted/SRC-9FC3BE4C22.md"
+    },
+    {
+      "id": "SRC-D77583E550",
+      "file": "08-bls-cpi-overview.md",
+      "title": "Consumer Price Indexes Overview",
+      "url": "https://www.bls.gov/cpi/overview.htm",
+      "published_at": "",
+      "public_ok": true,
+      "sha256": "d77583e55096fc6ad36bf0d7c47c6fd44bd402e7686b8b9824fd480e2558370d",
+      "pages": [
+        {
+          "page": 1,
+          "lines": [
+            "# 增補來源｜中文證據摘記（非原文全文）",
+            "- 原文標題：Consumer Price Indexes Overview",
+            "- 來源機構：U.S. Bureau of Labor Statistics",
+            "- 原文網址：https://www.bls.gov/cpi/overview.htm",
+            "- 資料核對日：2026-11-23",
+            "- 內容性質：依公開網頁重新整理之繁體中文重點；不是原文全文。",
+            "- 精確追溯方式：標明原網頁小節，p1:Lx 是本站摘記行號，非原網頁段落行號。",
+            "## 原文小節：CPI overview",
+            "- 【Overview】CPI 衡量美國消費者購買一籃子商品與服務的價格水準隨時間變化。",
+            "- 【Overview】CPI 是美國常用的通膨指標之一，並不是所有通膨概念的唯一衡量方法。",
+            "- 【Forms of publication】BLS 透過每月 CPI 新聞公告及線上資料庫發布資料。",
+            "- 【Uses of CPI】CPI 可作為經濟指標、其他經濟資料的物價調整參考，也用於部分支付金額的調整。",
+            "- 【閱讀限制】來源介紹 CPI 的用途與制度；沒有直接建立「某次 CPI 公布 = BTC 必漲／必跌」的定律。",
+            "## 使用邊界",
+            "- 原網頁內容可能更新。摘要只支持所列事實；對 BTC 價格的推論另行標為待實證。"
+          ]
+        }
+      ],
+      "extracted_file": "data/extracted/SRC-D77583E550.md"
+    },
+    {
+      "id": "SRC-3884564D79",
+      "file": "09-fred-ten-year-yield.md",
+      "title": "10-Year Treasury Constant Maturity Yield (DGS10)",
+      "url": "https://fred.stlouisfed.org/series/DGS10",
+      "published_at": "",
+      "public_ok": true,
+      "sha256": "3884564d79b547a6b4ff53d84c8b29394c6e99af778622f15c9b43636f70277a",
+      "pages": [
+        {
+          "page": 1,
+          "lines": [
+            "# 增補來源｜中文證據摘記（非原文全文）",
+            "- 原文標題：10-Year Treasury Constant Maturity Yield (DGS10)",
+            "- 來源機構：FRED / Federal Reserve Board",
+            "- 原文網址：https://fred.stlouisfed.org/series/DGS10",
+            "- 資料核對日：2026-11-23",
+            "- 內容性質：依公開網頁重新整理之繁體中文重點；不是原文全文。",
+            "- 精確追溯方式：標明原網頁小節，p1:Lx 是本站摘記行號，非原網頁段落行號。",
+            "## 原文小節：Series title and metadata",
+            "- 【Series title】FRED 序列 DGS10 的正式名稱是「Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity, Quoted on an Investment Basis」。",
+            "- 【Units / Frequency】DGS10 以百分比表示，提供日頻資料，屬未季節調整時間序列。",
+            "- 【Source / Release】資料來源為美國聯準會理事會，出自 H.15 Selected Interest Rates。",
+            "- 【Data caveat】DGS10 表示「固定期限為十年」的美債殖利率資料，不等同於每一檔實際流通十年期公債的交易報價。",
+            "- 【閱讀限制】這是美債利率觀測資料，不是 BTC 與殖利率之間固定方向的因果檢驗。",
+            "## 使用邊界",
+            "- 原網頁內容可能更新。摘要只支持所列事實；對 BTC 價格的推論另行標為待實證。"
+          ]
+        }
+      ],
+      "extracted_file": "data/extracted/SRC-3884564D79.md"
+    },
+    {
+      "id": "SRC-9D7999C6E3",
+      "file": "10-ice-us-dollar-index.md",
+      "title": "Managing U.S. dollar risk in uncertain times",
+      "url": "https://www.ice.com/insights/indexation-and-etfs/managing-us-dollar-risk-in-uncertain_times",
+      "published_at": "",
+      "public_ok": true,
+      "sha256": "9d7999c6e33a33088e48df914c8024ff42e4df25d7d3a5cbfd456185c4701059",
+      "pages": [
+        {
+          "page": 1,
+          "lines": [
+            "# 增補來源｜中文證據摘記（非原文全文）",
+            "- 原文標題：Managing U.S. dollar risk in uncertain times",
+            "- 來源機構：Intercontinental Exchange (ICE)",
+            "- 原文網址：https://www.ice.com/insights/indexation-and-etfs/managing-us-dollar-risk-in-uncertain_times",
+            "- 資料核對日：2026-11-23",
+            "- 內容性質：依公開網頁重新整理之繁體中文重點；不是原文全文。",
+            "- 精確追溯方式：標明原網頁小節，p1:Lx 是本站摘記行號，非原網頁段落行號。",
+            "## 原文小節：DXY benchmark description",
+            "- 【Index definition】ICE U.S. Dollar Index（USDX，圖表常標為 DXY）衡量美元相對特定六種貨幣籃子的價值。",
+            "- 【Index composition】六種貨幣與比重：歐元 57.6%、日圓 13.6%、英鎊 11.9%、加幣 9.1%、瑞典克朗 4.2%、瑞士法郎 3.6%。",
+            "- 【Calculation】DXY 以幾何加權平均方式計算，不是單純將六種貨幣數值做算術平均。",
+            "- 【Interpretation】美元相對該貨幣籃子走強，一般對應指數上升；這是美元匯率指標，不直接測量 BTC 買賣需求。",
+            "- 【閱讀限制】ICE 的 DXY 與聯準會發布的 Broad Dollar Index 不是同一序列，不應混用。",
+            "## 使用邊界",
+            "- 原網頁內容可能更新。摘要只支持所列事實；對 BTC 價格的推論另行標為待實證。"
+          ]
+        }
+      ],
+      "extracted_file": "data/extracted/SRC-9D7999C6E3.md"
+    },
+    {
+      "id": "SRC-45409C5A38",
+      "file": "11-fred-broad-dollar.md",
+      "title": "Nominal Broad U.S. Dollar Index (DTWEXBGS)",
+      "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+      "published_at": "",
+      "public_ok": true,
+      "sha256": "45409c5a384aa4198c74c5bce847aadac9873326ae2b89f7b219ff3cc1164b69",
+      "pages": [
+        {
+          "page": 1,
+          "lines": [
+            "# 增補來源｜中文證據摘記（非原文全文）",
+            "- 原文標題：Nominal Broad U.S. Dollar Index (DTWEXBGS)",
+            "- 來源機構：FRED / Federal Reserve Board",
+            "- 原文網址：https://fred.stlouisfed.org/series/DTWEXBGS",
+            "- 資料核對日：2026-11-23",
+            "- 內容性質：依公開網頁重新整理之繁體中文重點；不是原文全文。",
+            "- 精確追溯方式：標明原網頁小節，p1:Lx 是本站摘記行號，非原網頁段落行號。",
+            "## 原文小節：Series title and metadata",
+            "- 【Series title】DTWEXBGS 是 FRED 提供的「Nominal Broad U.S. Dollar Index」序列。",
+            "- 【Source / Release】資料源自聯準會理事會的 H.10 Foreign Exchange Rates。",
+            "- 【Units】以 2006 年 1 月=100 為基期的指數表達，與 ICE 的 DXY 不是同一套基期或構成方法。",
+            "- 【Frequency】本序列為日頻資料且未季節調整。",
+            "- 【注意事項】不能把 DTWEXBGS 的數字稱為 DXY，兩者可作不同美元指標比較。",
+            "## 使用邊界",
+            "- 原網頁內容可能更新。摘要只支持所列事實；對 BTC 價格的推論另行標為待實證。"
+          ]
+        }
+      ],
+      "extracted_file": "data/extracted/SRC-45409C5A38.md"
     }
   ],
   "errors": [],
